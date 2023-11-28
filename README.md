@@ -13,6 +13,14 @@ In this project, we aim to revolutionize the field of analytics using artificial
 - **Optimization:** Our algorithms can optimize various processes and systems to improve efficiency and performance.
 - **Visualization:** We provide interactive visualizations to help users understand and explore their data.
 
+## Getting Started
+
+To get started with Analytical Revolutionaries, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/alphaalexey/MyGodotProject1-copy-Final-variant.git`
+2. Install the required dependencies: `pip install -r requirements.txt`
+3. Run the main script: `python main.py`
+
 ## License
 
 This project is licensed under the [GPL-3.0 license](https://github.com/alphaalexey/MyGodotProject1-copy-Final-variant/blob/main/COPYING).
