@@ -10,9 +10,7 @@ from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import KFold, StratifiedKFold
 
-
-SUBMIT_FOLDER = 'Results'
-MATERIALS_FOLDER = 'Siberian Alfa Hack Materials'
+MATERIALS_FOLDER = 'data'
 
 train_df = pd.read_parquet(f'{MATERIALS_FOLDER}/train.parquet')
 test_df = pd.read_parquet(f'{MATERIALS_FOLDER}/test.parquet')
@@ -127,4 +125,4 @@ submit = pd.read_csv(f'{MATERIALS_FOLDER}/sample_submission.csv')
 submit['score'] = test_score
 submit.head()
 
-submit.to_csv(f'{SUBMIT_FOLDER}/result.csv', index=False)
+submit.to_csv('result.csv', index=False)
