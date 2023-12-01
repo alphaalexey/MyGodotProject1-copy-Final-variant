@@ -17,3 +17,5 @@ seaborn==0.13.0
 six==1.16.0
 threadpoolctl==3.2.0
 tzdata==2023.3
+lightgbm==4.1.0
+fastparquet==2023.10.1
